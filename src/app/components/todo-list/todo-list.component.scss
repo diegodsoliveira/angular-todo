@@ -1,0 +1,62 @@
+.container {
+  margin: auto;
+  width: 50%;
+  padding: 1rem;
+  background-color: white;
+}
+
+label {
+  display: block;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  font-size: 1rem;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+input[type=text]:hover {
+  opacity: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  font-size: 16px;
+  background: #c1c1c1;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+ul li:hover {
+  background-color: #a1a1a1;
+}
